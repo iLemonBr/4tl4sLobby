@@ -1,0 +1,28 @@
+name: AtlasLobby
+version: 1.0
+author: Atlas
+main: com.atlasplugins.atlaslobby.Main
+description: www.atlasplugins.com
+depend: [Citizens,HolographicDisplays,PermissionsEx]
+softdepend: [PlayerPoints,MineSHOP,TintaCoin]
+commands:
+ gamemode:
+ desregistrar:
+  aliases: [unregister]
+ login:
+  aliases: [logar]
+ register:
+  aliases: [registrar]
+ loginstaff:
+ definirnpc:
+ lobby:
+ sair:
+ sairfila:
+ r:
+  aliases: [reply]
+ tell:
+  aliases: [mensagemprivada]
+ trocarsenha:
+  aliases: [changepassword]
+ clear:
+ fly:

@@ -1,0 +1,165 @@
+#Atenção: Não é necessário colocar a porta 3306 no Host do MySQL.
+Mysql:
+ Host: 'localhost'
+ Usuario: 'root'
+ Senha: '' 
+ Database: 'test'
+ 
+ChatFormat: '@pex @player: @message'
+ 
+#Permissões de gamemode: atlasplugins.gamemode.<1/2/3>
+#Permissão para jogadores utilizarem o tell sem tempo de espera: atlasplugins.tell.bypass
+#Permissão para jogadores utilizarem o chat atlasplugins.chat.use
+#Permissão para jogadores entrarem na manutenção: atlasplugins.maintence.bypass.<nome do servidor no bungeecord>
+#Permissão para jogadores VIP entrarem em fila preferencial: atlasplugins.fila.preferencia
+#Permissão para jogadores Staff's entrarem sem fila: atlasplugins.fila.bypass
+#Permissão para jogadores voarem no spawn: atlasplugins.lobby.fly
+Mensagens:
+ SemPermissao: '&cVocê não tem permissão para executar este comando.'
+ ServidorOffline: '&cEste servidor encontra-se offline ou está reiniciando, aguarde alguns minutos e tente novamente.'
+ SaiuPVP:
+  - "&cVocê saiu do modo PVP."
+ EntrouPVP:
+  - "&aVocê entrou em modo de PVP no lobby"
+  - "&eCaso queira sair, digite '/sair'."
+ KickadoMod:
+  - "&c&lREDE ATLAS"
+  - "&c"
+  - "&cIndentificamos que você está utilizando mods não permitidos em nosso servidor."
+  - "&cConfira a lista dos &búnicos mods permitidos &cacessando: &bwww.atlasplugins.com"
+  - "&c"
+  - "&cModificação indentificada: &7@mod"
+ BetaVIPMessage:
+  - ""
+  - "&cEste servidor encontra-se em &6BETA VIP&c."
+  - "&cCompre seu &6VIP &cem: atlasplugins.com"
+  - ""
+ MaintenceMode:
+  - "&cDesculpe, este servidor está em manutenção."
+ 
+#Permissoes para quebrar blocos no lobby: atlasplugins.staff.admin
+#LoginStaff: Tpermissão atlasplugins.staff.auth deverão se autenticar com uma senha a mais configurada abaixo.
+  #Geral:odos os usuários que conterem a
+ Lobby: 'Lobby01'
+ ServerName: 'REDE ATLAS'
+ Fila: true
+ AntiWDL: true
+ ScoreBoard: true
+ LoginStaffSystem: true
+ Captcha: true
+ Titulos: true
+ 
+ScoreBoard:
+ Nome: '&6&lATLAS PLUGINS'
+ Link: '&eatlasplugins.com'
+ Abreviar: true
+ 
+#Apenas jogadores com a permissão atlasplugins.staff.admin poderão entrar em lobbies em manutenção.
+LobbyList:
+ Lobby01:
+  Manutencao: false
+  MaxPlayers: 100
+  Server: 'lobby_1'
+ Lobby02:
+  Manutencao: true
+  MaxPlayers: 100
+  Server: 'lobby_1'
+
+LoginStaff: 'atlasplugins123'
+
+Dica:
+ Ativar: true
+ Som: ORB_PICKUP
+ Mensagem:
+  - ""
+  - "&e &lDICA: &eNunca compartilhe sua senha com ninguém."
+  - " &eassim você nunca irá ser roubado ou invadido por alguém."
+  - ""
+
+#Você pode encontrar o ModID indo na aba Mods dentro do jogo com o mod instalado e clicando
+#no mod que você quer bloquear ele aparece o ModId, segue a print: http://prntscr.com/qsw6mj
+AntiMod:
+ Ativar: false
+ ModBlackList:
+  ArmourStatus:
+   ModID: 'bspkrsCore'
+   ModName: 'Armour Status'
+
+Titulos:
+ Registro:
+  Titulo: '&6&lREDE ATLAS'
+  SubTitulo: '&f&LUtilize: /registrar <senha> <senha>'
+ Login:
+  Titulo: '&6&lREDE ATLAS'
+  SubTitulo: '&f&LUtilize: /login <senha>'
+ LoginStaff:
+  Titulo: '&c&lLOGIN STAFF'
+  SubTitulo: '&f&lUtilize: /loginstaff <senha>'
+ Autenticado:
+  Titulo: '&a&lAUTENTICADO'
+  SubTitulo: '&f&lSeja bem-vindo.'
+ 
+GiveItems:
+ Bussola:
+  Slot: 0
+  Item:
+   ID: 345
+   Data: 0
+   Nome: '&aMinigames'
+   Lore:
+    - "&7Sabemos que é uma difícil escolha..."
+  Menu:
+   AbrirMenu: true
+   MenuName: 'Menu01'
+ 
+Batalhas:
+ Item: DIAMOND_SWORD
+ Ativar: true
+ Slot: 4
+ Nome: '&cBatalha PVP'
+ Lore:
+  - "&7Clique para entrar em modo pvp com outros"
+  - "&7jogadores que também estão com este modo ativado."
+ ItensBatalhar:
+  HELMET:
+   ID: 302
+   Data: 0
+   Quantity: 1
+  CHESTPLATE:
+   ID: 303
+   Data: 0
+   Quantity: 1
+  LEGGINGS:
+   ID: 304
+   Data: 0
+   Quantity: 1
+  BOOTS:
+   ID: 305
+   Data: 0
+   Quantity: 1
+  SWORD:
+   ID: 276
+   Data: 0
+   Quantity: 1
+  ADICTIONAL:
+   ID: 322
+   Data: 0
+   Quantity: 12
+
+Perfil:
+ Ativar: true
+ Slot: 1
+ Nome: '&aPerfil'
+ Lore:
+  - "&7Clique para ver seu perfil."
+  
+Lobbies:
+ Ativar: true
+ Slot: 8
+ Nome: '&aLobbies'
+ Lore:
+  - "&7Lobbies do servidor"
+
+Jogadores:
+ Ativar: true
+ Slot: 7

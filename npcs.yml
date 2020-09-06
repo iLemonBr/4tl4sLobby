@@ -1,0 +1,22 @@
+#Não mexer na localização pois será definida in-game.
+NPCS:
+ Factions:
+  Hologram:
+   Distance: 2.2
+   Ativar: true
+   Lines:
+    - "&e&lNOVIDADE!"
+    - "&aFactions Atlas"
+    - "&bClique para se conectar!"
+  Skin: 'TrademarkNoob'
+  Conexao:
+   Ativar: true
+   Servidor: 'factions'
+  ItemInHand:
+   Ativar: true
+   Item:
+    ID: 46
+    Data: 0
+    Skull: "Nenhuma"
+    Enchanted: false
+  Localizacao: ''

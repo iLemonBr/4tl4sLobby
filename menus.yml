@@ -1,0 +1,44 @@
+#Skull: Textura custom para cabeça que podem ser encontradas em: https://minecraft-heads.com/
+#Conexão: Definir se o item será clicável e se conectará em algum outro servidor.
+#Conexão->Servidor: O nome digitado neste campo deve ser igual ao nome do servidor configurado no bungeeCord.
+Menus:
+ Menu01:
+  Titulo: 'Servidores'
+  Slots: 27
+  Items:
+   Ajuda:
+    Slot: 10
+    ID: 264
+    Data: 0
+    Skull: 'Nenhuma'
+    Conexao:
+     Ativar: false
+     Servidor: 'Nenhum'
+    Nome: '&bAjude o servidor!'
+    Lore:
+     - "&7"
+     - "  &7Você pode ajudar o servidor adquirindo pacotes &fVIP"
+     - "  &7ou pacotes de &fCASHs &7em nossa loja. Além de ajudar a manter"
+     - "  &7o servidor online, você ainda receberá varios"
+     - "  &7benefícios em nossos servidores."
+     - "&7"
+     - "&bAcesse nossa loja: &fatlasplugins.com"
+   Factions:
+    Slot: 14
+    ID: 397
+    Data: 3
+    Skull: 'http://textures.minecraft.net/texture/3af59776f2f03412c7b5947a63a0cf283d51fe65ac6df7f2f882e08344565e9'
+    Conexao:
+     Ativar: true
+     Servidor: 'factions'
+    Nome: '&aFactions Atlas'
+    Lore:
+     - "&7"
+     - "  &bTópico completo: &eatlasplugins.com/loja/detalhes/AtlasFactions"
+     - ""
+     - "  &7Convoque sua facção, construa sua base,"
+     - "  &7defenda-se de invasões adversárias"
+     - "  &7e realize suas próprias invasões."
+     - "&7"
+     - "&aClique para jogar!"
+     - "&7{jogadores}"
